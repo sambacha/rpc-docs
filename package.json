@@ -1,0 +1,32 @@
+{
+  "name": "backbone-documentation",
+  "version": "0.0.1",
+  "description": "documentation for backbone cabal rpc service ",
+  "main": "bin/bottler.js",
+  "bin": {
+    "backbone-documentation": "bottler.js"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backbonecabal/omnibus.git"
+  },
+  "author": "see contributors",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/backbonecabal/omnibus/issues"
+  },
+  "homepage": "https://github.com/backbonecabal/omnibus#readme",
+  "keywords": [],
+  "dependencies": {
+    "git-origin-url": "^0.3.0",
+    "mkdirp": "^1.0.4",
+    "remote-origin-url": "^2.0.0",
+    "yamljs": "^0.3.0"
+  }
+}

@@ -1,0 +1,102 @@
+site_name: BackBone Cabal
+repo_url: 'https://github.com/backbonecabal/docs'
+copyright: |
+  Copyright &copy; 2020 <a href="https://backbonecabal.xyz"  target="_blank" rel="noopener">backbonecabal.xyz - All Rights Reserved</a>
+extra:
+  latest_version_warning:
+    url_contains: /latest/
+    text: 'You are reading the latest documentation'
+  support:
+    chat: 
+    email: 
+    website: https://www.backbonecabal.xyz
+    issues: https://github.com/backbonecabal/omnibus
+  google_analytics:
+  - ''
+  - ''
+theme:
+    name: bootstrap4
+
+nav:
+    - docs/api/index.md
+    - docs/api/api/eth_accounts.md
+    - docs/api/eth_blockNumber.md
+    - docs/api/eth_gasPrice.md
+    - docs/api/eth_gasPrice.md
+    - docs/api/eth_getBalance.md
+    - docs/api/eth_getBlockByHash.md
+    - docs/api/eth_getBlockByNumber.md
+    - docs/api/eth_getBlockTransactionCountByHash.md
+    - docs/api/eth_getBlockTransactionCountByNumber.md
+    - docs/api/eth_getCode.md
+    - docs/api/eth_getLogs.md
+    - docs/api/eth_getStorageAt.md
+    - docs/api/eth_getTransactionByBlockHashAndIndex.md
+    - docs/api/eth_getTransactionByBlockNumberAndIndex.md
+    - docs/api/eth_getTransactionByHash.md
+    - docs/api/eth_getTransactionCount.md
+    - docs/api/eth_getTransactionReceipt.md
+    - docs/api/eth_getUncleByBlockHashAndIndex.md
+    - docs/api/eth_getUncleByBlockNumberAndIndex.md
+    - docs/api/eth_getUncleCountByBlockHash.md
+    - docs/api/eth_getUncleCountByBlockNumber.md
+    - docs/api/eth_getWork.md
+    - docs/api/eth_hashrate.md
+    - docs/api/eth_mining.md
+    - docs/api/eth_protocolVersion.md
+    - docs/api/eth_syncing.md
+    - docs/api/net_listening.md
+    - docs/api/net_peerCount.md
+    - docs/api/net_version.md
+    - docs/api/networkMethod.md
+    - docs/api/networkMethods.md
+    - docs/api/symbol.md
+    - docs/api/symbolFull.md
+    - docs/api/symbols.md
+    - docs/api/v1Blacklist.md
+    - docs/api/v2Blacklist.md
+    - docs/api/web3_clientVersion.md
+    - docs/api/eth_getFilterChanges.md
+    - docs/api/eth_getFilterLogs.md
+    - docs/api/eth_newBlockFilter.md
+    - docs/api/eth_newFilter.md
+    - docs/api/eth_newPendingTransactionFilter.md
+    - docs/api/eth_subscribe.md
+    - docs/api/eth_uninstallFilter.md
+    - docs/api/eth_unsubscribe.md
+ 
+docs_dir: docs
+
+markdown_extensions:
+    - toc:
+        permalink: 
+        toc_depth: 3
+    - codehilite
+    - pymdownx.superfences
+    - markdown_include.include:
+        base_path: docs
+    - admonition
+    - footnotes
+    - def_list
+    - abbr
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.keys
+    - pymdownx.details
+    - pymdownx.emoji
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    - meta
+    - smarty
+    - attr_list
+
+
+
+plugins:
+    - search:
+        separator: '[\s\-\.]+'

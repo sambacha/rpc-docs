@@ -1,0 +1,23 @@
+title: Backbone Cabal RPC Documentation
+lang: en
+description: Ethereum RPC and MultiChain RPC Documentation
+repository: backbonecabal/omnibus
+## local method ##
+theme: jekyll-rtd-theme
+
+
+#remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
